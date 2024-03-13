@@ -1,0 +1,102 @@
+body{
+  margin-top: 40px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 40px;
+  line-height: 1.5;
+  padding: 20px;
+
+  border: 10px solid transparent; /* Establece un borde transparente */
+    border-radius: 10px; /* Ajusta el radio para obtener bordes redondeados */
+    border-image: linear-gradient(to right, #ff7e5f, #feb47b); /* Agrega un efecto de relieve con un degradado */
+    border-image-slice: 1; /
+
+  
+}
+
+:root {
+  font-family: "Nunito", sans-serif;
+  text-align: justify;
+}
+
+h2 {
+  color: rgba(255, 76, 44, 0.829);
+  text-align: center;
+  text-transform: uppercase;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: 2px solid;
+}
+
+h2:hover {
+  background-color: rgb(107, 248, 182);
+  cursor: pointer;
+}
+
+h3 {
+  color: rgb(0, 201, 107);
+  text-transform: uppercase;
+  word-spacing: 10px;
+  text-align: center;
+}
+
+h3:hover {
+  background-color: #feb47b;
+  cursor: pointer;
+}
+
+h4 {
+  color:rgb(250, 100, 89);
+ 
+}
+
+::marker {
+  color: rgb(247, 70, 70);
+}
+
+.orderedList ::marker {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.address {
+  text-align: right;
+}
+
+#quotes {
+  quotes: """ """;
+}
+
+.borderBlockquote {
+  border: 2px solid rgb(0, 201, 107);
+  hyphens: auto;
+  padding: 10px;
+}
+
+.borderBlockquote:hover{
+  background-color: rgb(249, 185, 185);
+  cursor:pointer;
+}
+
+.underlined {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.lipsImg {
+  width: 30px;
+  height: 20px;
+  vertical-align:text-bottom;
+}
+
+/* sé que queda fatal esta parte pero no se me ocurría otra manera de meter el vertical writing-more */
+.writingMode {
+  writing-mode: vertical-lr;
+}
+
+/* sé que queda fatal esta parte pero no se me ocurría otra manera de meter el word-wrap */
+.wordWrap {
+  border: 1px solid black;
+  width: 70px;
+  word-wrap: break-word;
+}
+
